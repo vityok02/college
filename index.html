@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="">Головна</a></li>
+                <li><a href="">Новини коледжу</a></li>
+                <li><a href="">Історична довідка</a></li>
+                <li><a href="">Керівництво</a></li>
+                <li><a href="">Контакти</a></li>
+                <li><a href="">Публічна інформація</a></li>
+                <li><a href="">Архів новин</a></li>
+            </ul>
+        </nav>
+        <div class="title">
+            <h1>Відокремлений структурний підрозділ "Вінницький фаховий коледж Національного університету харчових технологій"</h1>
+        </div>
+    </header>
+    <section>
+        <span id="open-nav" class="open-nav" onclick="openNav()">&#9776; </span>
+        <nav id="mySidenav" class="navbar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <ul>
+                <li><a href="">Положення</a></li>
+                <li><a href="">Довідка абітурієнта</a></li>
+                <li><a href="">Студенту</a></li>
+                <li><a href="">Дистанційна освіта</a></li>
+                <li><a href="">Освітні програми</a></li>
+                <li><a href="">Викладачу</a></li>
+                <li><a href="">Всеукраїнська онлайн-конференція</a></li>
+                <li><a href="">Відділення коледжу</a></li>
+                <li><a href="">Циклові комісії</a></li>
+                <li><a href="">Громадське обговорення</a></li>
+                <li><a href="">Галерея</a></li>
+                <li><a href="">Дозвілля</a></li>
+                <li><a href="">Відеогалерея</a></li>
+                <li><a href="">Психологічна служба</a></li>
+                <li><a href="">Державні закупівлі</a></li>
+            </ul>
+        </nav>
+    </section>
+    <main>
+        <h2>Відокремлений структурний підрозділ "Вінницький фаховий коледж Національного університету харчових технологій"</h2>
+        <img src="images/1.jpg" alt="">
+        <img src="images/2.jpg" alt="">
+        <img src="images/3.jpg" alt="">
+        <a href="" class="btn-reg">Зареєструватись</a>
+        <img src="images/4.jpg" alt="">
+    </main>
+    <footer></footer>
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "300px";
+          document.getElementById("open-nav").style.display = "none";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+          document.getElementById("open-nav").style.display = "block";
+        }
+    </script>
+</body>
+</html>
